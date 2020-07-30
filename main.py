@@ -25,3 +25,4 @@ while running:
     Sprite.draw(screen)
     pygame.display.update()
   clock.tick(60)  
+  if key[pygame.K_LEFT] and self.x > 0:
